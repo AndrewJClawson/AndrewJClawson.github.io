@@ -6,13 +6,8 @@
 
 }
 
-#homepage-header h1
+#homepage-header h1,p
 {
+  
   color:#1893e4;
-}
-
-#homepage-lead{
-  width:350px;
-  color:#1893e4;
-  text-align:center;
 }
