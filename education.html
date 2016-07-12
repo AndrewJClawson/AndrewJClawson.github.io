@@ -1,6 +1,9 @@
 <html>
 
   <head>
+    <title>Education</title>
+    <link rel="stylesheet" href="styles/foundation-6.2.1-complete/css/foundation.min.css">
+    <link rel="stylesheet" href="styles/foundation-6.2.1-complete/css/app.css">
 
   </head>
 
@@ -15,7 +18,7 @@
       <ul class="dropdown menu" data-dropdown-menu>
         <li class="menu-text">Andrew J. Clawson</li>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Education</a></li>
+        <li><a href="about.html">About me</a></li>
         <li><a href="#">Experience</a></li>
         <li class="has-submenu">
           <a href="#">Dev. Projects</a>
@@ -35,41 +38,40 @@
       </ul>
     </div>
   </div>
+
     <div class="row">
-      <div class="medium-6 columns medium-push-6">
-        <img class="thumbnail" src="styles/foundation-6.2.1-complete/css/images/me1.jpg">
-      </div>
-      <div class="medium-6 columns medium-pull-6">
-        <h2 style="color:green">Who Am I?</h2>
-        <p>
-          I am a native to Denver, CO. I live in a suburb just outside of Denver
-          with my wife, Laura, whom I have been married with for 10 years. We have
-          three beautiful kids: Josiah (7), Silas (5), and Elsabeth (3).
-
-        </p>
-        <div class="container">
-          <a href="#" class="facebook" title="Facebook"></a>
-
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <img class="thumbnail" src="images/CU_Logo.png">
+        </div>
+        <div class="media-object-section">
+          <h2 class="education-text">
+            University of Colorado | Graduated May 2013
+          </h2>
+          <p class="education-text">
+            <ul class="education-text">
+              <li>Graduated with a B.S. Applied Mathematics</li>
+              <li>Minor in Physics</li>
+              <li>Notable course work:</li>
+                <ul>
+                  <li>Analytic and Numeric Solutions to ODE's and PDE's</li>
+                  <li>Numerical Analysis (2 Semesters)</li>
+                  <li>Computational Physics (2 Semesters)</li>
+                  <li>Continuous and Discrete modeling</li>
+                  <li>Probability and Statistics</li>
+                </ul>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="row">
 
-      <div class="medium-6 columns medium-pull-6">
-        <h2>WELCOME!</h2>
-        <p>
-          Welcome to my online portfolio, hosted by GitHub Pages. I am happy
-          to show you a little bit about who I am, my experience, and some of
-          the projects I am currently involved in.  Feel free to browse or
-          <a>contact me</a> with any question or comments.
-        </p>
-
-      </div>
-      <div class="medium-6 columns medium-push-6">
-        <img class="thumbnail" src="styles/foundation-6.2.1-complete/css/images/me1.jpg">
-      </div>
-    </div>
+    <script src="styles/foundation-6.2.1-complete/js/vendor/jquery.js"></script>
+    <script src="styles/foundation-6.2.1-complete/js/vendor/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
     <script src="styles/foundation-6.2.1-complete/js/vendor/jquery.js"></script>
     <script src="styles/foundation-6.2.1-complete/js/vendor/foundation.js"></script>
@@ -77,4 +79,6 @@
       $(document).foundation();
     </script>
   </body>
+
+
 </html>

@@ -57,6 +57,10 @@ body {
 	background-image: linear-gradient(to top, #4974b0, #6e90c0);
 }
 
+.education-text
+{
+	color:3AD89B;
+}
 /*
 .facebook:after {
 	content: "A";
