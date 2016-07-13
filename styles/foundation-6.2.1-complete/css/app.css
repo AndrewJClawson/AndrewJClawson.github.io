@@ -69,9 +69,18 @@ a:active { opacity: 0.8; }
 	width:60px;
 	height:60px;
 }
+#facebook-icon:hover
+{
+	content:"Facebook";
+}
 .education-text
 {
 	color:3AD89B;
+}
+
+.experience-text
+{
+	color:17AFCC;
 }
 /*
 .facebook:after {
